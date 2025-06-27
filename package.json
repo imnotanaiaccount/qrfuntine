@@ -1,0 +1,21 @@
+{
+  "name": "qrfuntine-project",
+  "version": "1.0.0",
+  "description": "My QR Funtine project with Netlify Functions",
+  "main": "index.js", // Or whatever your main frontend file is
+  "scripts": {
+    "start": "netlify dev", // Example for local development
+    "build": "echo 'No build command for static site' && exit 0" // Or your actual frontend build command like 'npm run build'
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-ai/generativelanguage": "^0.1.0" // **THIS IS THE IMPORTANT LINE**
+    // Add any other dependencies your frontend or other functions use here
+  }
+  // If you have devDependencies, they go here too
+  // "devDependencies": {
+  //   "netlify-cli": "^12.0.0"
+  // }
+}
